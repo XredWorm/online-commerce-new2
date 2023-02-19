@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+/* .header {
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+} */
+
+/* .header {
+    background-image: url(/img/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.header-line {
+    padding-top: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo span {
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.nav-item {
+    color: rgba(255, 255, 255, 0.753);
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    margin-right: 40px;
+
+    transition: color 0.2s linear;
+}
+
+.nav-item:hover {
+    color: rgb(28, 15, 209);
+}
+
+.button {
+    background: rgb(63, 63, 161);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 2.5px 12px;
+    border-radius: 5px;
+
+    transition: background-color 0.3s linear;
+}
+
+.button:hover {
+    background-color: rgb(36, 36, 88)
+}
+
+
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    color: rgba(121, 141, 255, 0.753);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+
+    margin-top: 124px;
+    margin-bottom: 12px;
+}
+
+.header-subtitle {
+    color: #c0c0c0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    width: 741px;
+    height: 196px;
+    line-height: 43px;
+    margin-bottom: 55px;
+}
+
+.header-button {
+    background: rgb(63, 63, 161);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 13px 52px;
+    border-radius: 15px;
+
+    transition: background-color 0.3s linear;
+}
+
+.header-button:hover {
+    background-color: rgb(36, 36, 88);
+}
+
+
+
+/* .header-serv {
+    background-color: rgb(231, 230, 230);
+} */
+
+
+.services-text {
+    color: rgba(121, 141, 255, 0.753);
+    margin-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* .services-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    
+} */
+
+.services {
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+}
+
+.services-item {
+    color: rgba(121, 141, 255, 0.753);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv-img {
+    margin-right: 20px;
+}
+
+.services-tex {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.services-sup {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #c0c0c0;
+    margin-bottom: 15px;
+    width: 290px;
+    height: 63px;
+    line-height: 18px;
+}
+
+/* .header-clin {
+    background-color: rgb(231, 230, 230);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+/* .services-Client {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+} */
+
+
+
+
+.clients {
+    margin-top: 100px;
+    display: grid;
+    grid-template: 120px 120px / repeat(4, 25%);
+    text-align: center;
+}
+
+
+.nav-logo {
+    margin-right: 40px;
+}
+
+
+.foot-logo {
+    margin: 0px 0px 0px 166px;
+}
+
+.social {
+    margin: 0px 166px 0px 0px;
+}
+
+.header-lo {
+    margin-top: 100px;
+    background-color: #17253fa1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        margin: 0 20px;
+    }
+
+    .header-line {
+        padding-top: 20px;
+    }
+
+    .header-logo span {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .nav-item {
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 2px 8px;
+        border-radius: 3px;
+    }
+
+    .header-title {
+        font-size: 32px;
+        margin-top: 40px;
+    }
+
+    .header-subtitle {
+        font-size: 20px;
+        width: auto;
+        height: auto;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+
+    .header-button {
+        font-size: 18px;
+        padding: 8px 20px;
+        border-radius: 10px;
+    }
+
+    .services-text {
+        font-size: 28px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .services {
+        grid-template: repeat(4, auto) / 100%;
+    }
+
+    .serv-img {
+        margin-right: 10px;
+    }
+
+    .services-tex {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .services-sup {
+        font-size: 12px;
+        margin-bottom: 10px;
+        width: auto;
+        height: auto;
+        line-height: 16px;
+    }
+
+    .clients {
+        grid-template: repeat(8, auto) / 50% 50%;
+        margin-top: 80px;
+    }
+
+    .foot-logo {
+        margin: 0 20px;
+    }
+
+    .header-lo {
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
